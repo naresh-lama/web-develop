@@ -24,6 +24,12 @@ for (let i = 0; i < 5; i++) {
     console.log("I love my country");
 }
 
+///multiply
+let a = 2;
+for (let i = 1; i <= 10; i++) {
+    console.log(a + " x " + i + " = " + i*a);
+}
+
 /// i = 0, 0 < 5, 1....print 1
 /// i = 1, 1 < 5, 2....print 2
 /// i = 2, 2 < 5, 3....print 3
