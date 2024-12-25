@@ -1,0 +1,75 @@
+Css Animation
+  https://animate.style/?ref=itdo.com
+
+Css library
+  https://tailwindcss.com/
+
+Icon
+  https://icomoon.io/
+
+Slider
+  https://kenwheeler.github.io/slick/
+  https://swiperjs.com/
+
+フォーム
+  https://color-piece.com/blog/php-contact-form/
+
+参考ファイル
+  https://lab.syncer.jp/Tool/HTML-PrettyPrint/
+  https://www.planttext.com/#google_vignette
+  https://yoshikawaweb.com/element/#google_vignette
+  https://www.smarty.net/docs/ja/language.syntax.variables.tpl
+  http://www.shurey.com/js/labo/character.html
+  https://www.digital.go.jp/resources/introduction-to-web-accessibility-guidebook
+  https://community.creators-synergy-cafe.com/blogs/711fed11c7fb
+  https://tinify.com/web
+  https://htmlls.docs-share.com/
+
+フォルダ構成
+shared
+ |-css
+ |-img
+ |-scss
+   |-foundation
+     |_variable--color
+     |_function--key of color,font,icon
+     |_font
+     |_reset
+     |_mixin
+     |_base
+   |-object
+     |-project
+     |-component
+     |-utility
+   |-layout
+     |_footer
+     |_header
+     |_main
+   |-page.scss
+   |-static.scss
+   |_style.scss
+ |-font
+   |-icomonn
+ |-js
+
+|-foundation
+// Font Map
+@function font($key) {
+	@return map-get($font, $key);
+}
+
+// Color Map
+@function colors($key) {
+	@return map-get($color, $key);
+}
+
+// Icon Map
+@function icons($key) {
+	@return map-get($icons, $key);
+}
+
+// Device Width Map
+@function device($key) {
+	@return map-get($device_width, $key);
+}
+
