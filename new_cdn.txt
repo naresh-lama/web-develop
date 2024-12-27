@@ -32,12 +32,12 @@ shared
  |-img
  |-scss
    |-foundation
-     |_variable--color
-     |_function--key of color,font,icon
-     |_font
-     |_reset
-     |_mixin
-     |_base
+     |_color.scss--color
+     |_function.scss--key of color,font,icon
+     |_font.scss--icon font
+     |_reset.scss
+     |_mixin.scss
+     |_base.scss
    |-object
      |-project
      |-component
@@ -49,8 +49,13 @@ shared
    |-page.scss
    |-static.scss
    |_style.scss
+   |-common.scss
  |-font
    |-icomonn
+     |-icomoon.eot
+     |-icomoon.svg
+     |-icomoon.ttf
+     |-icomoon.woff
  |-js
 
 |-foundation
